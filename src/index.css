@@ -1,0 +1,27 @@
+@import "tailwindcss";
+ 
+@plugin "tailwindcss-motion";
+
+@media (max-width: 639px) {
+  .disable-animation-sm {
+    animation: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .disable-animation-mdlg {
+    animation: none !important;
+  }
+}
+
+
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+  .ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+}
