@@ -90,7 +90,7 @@ function App() {
         </div>
         <img src={DataImage} alt="Image Hero" className=" bottom-20 w-145 md:ml-auto animate__animated animate__fadeInRight animate__delay-3s z-40" loading="lazy" />
         <div className="animate__animated animate__zoomIn animate__delay-3s relative bottom-145 left-50">
-          <img src={Rotasi} alt="" className="flex absolute w-120 animate-[spin_3s_linear_infinite] left-140 top-0" />
+          <img src={Rotasi} alt="" className="flex absolute w-120 animate-[spin_3s_linear_infinite] md:left-140 top-55 -left-35" />
         </div>
         <div className="animate__animated animate__zoomIn animate__delay-3s relative bottom-100 right-15">
           <img src={Rotasi2} alt="" className="flex absolute w-100 animate-[spin_3s_linear_infinite]" />

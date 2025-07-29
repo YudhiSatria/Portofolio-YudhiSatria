@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <div className="animate__animated animate__fadeInDown animate__delay-3s z-50 disable-animation-sm">
             <div className="navbar py-7 z-50 flex items-center justify-between mx-auto px-4 box-border">
-                <div className="logo animate__animated animate__fadeInDown animate__delay-3s z-50 disable-animation-mdlg">
+                <div className="logo animate__animated animate__fadeInDown animate__delay-3s z-50 disable-animation-md">
                     <h1 className="text-3xl font-bold bg-white text-black p-1 md:bg-transparent md:text-white">
                         Portofolio
                     </h1>
