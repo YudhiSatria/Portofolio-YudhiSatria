@@ -19,7 +19,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className="animate__animated animate__fadeInDown animate__delay-3s z-50 disable-animation-sm">
+        <div className="animate__animated animate__fadeInDown animate__delay-3s z-50 disable-animation-sm sm:mr-">
             <div className="navbar py-7 z-50 flex items-center justify-between mx-auto px-4 box-border">
                 <div className="logo animate__animated animate__fadeInDown animate__delay-3s z-50 disable-animation-md">
                     <h1 className="text-3xl font-bold bg-white text-black p-1 md:bg-transparent md:text-white">
@@ -27,7 +27,7 @@ const Navbar = () => {
                     </h1>
                 </div>
                 <ul
-                    className={`menu z-50 flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none ${active ? 'flex top-0 opacity-100' : '-top-10 opacity-0'
+                    className={`menu z-50 flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0  md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none ${active ? 'flex top-0 opacity-100' : '-top-10 opacity-0'
                         }`}
                 >
                     <li>

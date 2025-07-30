@@ -1,9 +1,8 @@
-import DataImage from "./asset/img/herooo.png";
-import LogoImage from "./asset/img/logo-icon.png";
-import Rotasi from "./asset/img/rotasi-1.png";
-import Rotasi2 from "./asset/img/rotasih-2.png";
-import RingImage from "./asset/img/linesz.png";
-import Lines from "./asset/img/linesss.png";
+import DataImage from "./asset/img/heross.png";
+import Rotasi from "./asset/img/rotasi1new.png";
+import Rotasi2 from "./asset/img/rotasi2new.png";
+import RingImage from "./asset/img/lineses.png";
+import Lines from "./asset/img/linesnew.png";
 import Tools1 from "./asset/img/vscode.png";
 import Tools2 from "./asset/img/Adobe-XD.png";
 import Tools3 from "./asset/img/canvalogo.svg";
@@ -79,7 +78,7 @@ function App() {
             <a href="https://wa.me/<083117629068>" >
               <FontAwesomeIcon icon={faWhatsapp} size="2x" className="text-white hover:text-green-400 animate__animated animate__fadeInDown animate__delay-3s" />
             </a>
-            <a href="https://mahasiswa.undiksha.ac.id/dwi.andika.3" >
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fexplore" >
               <FontAwesomeIcon icon={faXTwitter} size="2x" className="text-white hover:text-gray-400 animate__animated animate__fadeInRight animate__delay-4s" />
             </a>
           </div>
@@ -89,8 +88,8 @@ function App() {
           </div>
         </div>
         <img src={DataImage} alt="Image Hero" className=" bottom-20 w-145 md:ml-auto animate__animated animate__fadeInRight animate__delay-3s z-40" loading="lazy" />
-        <div className="animate__animated animate__zoomIn animate__delay-3s relative bottom-145 left-50">
-          <img src={Rotasi} alt="" className="flex absolute w-120 animate-[spin_3s_linear_infinite] md:left-140 top-55 -left-35" />
+        <div className="animate__animated animate__zoomIn animate__delay-3s relative md:bottom-150 bottom-90 left-50">
+          <img src={Rotasi} alt="" className="flex absolute w-120 animate-[spin_3s_linear_infinite] md:left-140 -left-35" />
         </div>
         <div className="animate__animated animate__zoomIn animate__delay-3s relative bottom-100 right-15">
           <img src={Rotasi2} alt="" className="flex absolute w-100 animate-[spin_3s_linear_infinite]" />
@@ -99,7 +98,7 @@ function App() {
       {/* Hero Section */}
 
       {/* Tentang */}
-      <img src={RingImage} alt="" className="w-145 absolute z-[-1] left-[0px] rotate-50" loading="lazy" data-aos="fade-right" data-aos-duration="1000" />
+      <img src={RingImage} alt="" className="lg:w-145 w-80 absolute z-[-1] left-[0px]  rotate-50" loading="lazy" data-aos="fade-right" data-aos-duration="1000" />
       <img src={Lines} alt="" className="w-100 absolute z-[-1] right-[25px] pt-60 hidden lg:block" loading="lazy" data-aos="fade-left" data-aos-duration="1500" />
       <div className=" tentang py-10 mt-30" id="tentang" data-aos="fade-up" data-aos-duration="1000">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-2xl opacity-97">

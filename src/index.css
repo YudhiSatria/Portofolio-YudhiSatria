@@ -10,15 +10,23 @@
 @media (min-width: 768px) {
   .disable-animation-mdlg {
     animation: none !important;
+
   }
 }
 
-
+:root{
+  overflow-x: hidden;
+}
 
 @layer base {
+  html, body {
+    overflow-x: hidden;
+  }
   body {
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
+    
+  
   }
   .ml2 .letter {
   display: inline-block;
